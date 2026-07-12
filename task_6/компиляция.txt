@@ -1,0 +1,2 @@
+pgc++ -g -O2 -acc=gpu -gpu=cc70 -Minfo=accel task_6_gpu3.cpp -lboost_program_options -o task6_gpu_3
+./task6_gpu -n 512 -e 1e-6 -i 1000000
